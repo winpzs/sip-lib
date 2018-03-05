@@ -13,15 +13,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "ng test -sr -sm=false",
-    "build": "rimraf dist && tsc && copy package.npm.json dist\\\\package.json /y",
-    "npmlink": "npm link ./dist"
+    "test": ""
   },
   "dependencies": {},
-  "devDependencies": {
-    "@types/node": "~6.0.60",
-    "rimraf": "^2.6.2",
-    "rxjs": "^5.5.5",
-    "typescript": "~2.6.0"
-  }
+  "devDependencies": {}
 }
